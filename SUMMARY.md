@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Fili Santillán 3.0.4](README.md)
+* [React Basic](README.md)
 * [React Hook](react-hook/README.md)
   * [Context API](react-hook/context-api.md)
   * [Global state with hook](react-hook/global-state-with-hook.md)

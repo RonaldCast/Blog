@@ -1,80 +1,8 @@
-# Fili Santillán 3.0.4
+# React Basic
 
 ## What´s React?
 
-Ghost 0.11.3
 
-
-
-## Español - Spanish
-
-Pequeña guía para el uso del tema **"FiliSantillan"** en **Ghost**, esto con el objetivo de que tenga un correcto funcionamiento y la experiencia sea mucho mejor más placentera para el usuario.
-
-* [Imágenes](./#imágenes)
-* [Posts](./#posts)
-* [Dependencias](./#dependencias)
-
-### Imágenes
-
-Resolución recomendada para las imágenes en el blog.
-
-Tamaño para las imágenes en los posts, incluyendo las portadas de los artículos estáticos:
-
-| Imagen | Resolución |
-| :--- | :--- |
-| Ancho | 1920px |
-| Alto | 945px |
-
-Tamaño para las imágenes en los artículos estáticos \(Agenda, Cursos, Videos\):
-
-| Imagen | Resolución |
-| :--- | :--- |
-| Ancho | 560px |
-| Alto | 400px |
-
-Tamaño para las imágenes del autor:
-
-| Imagen | Resolución |
-| :--- | :--- |
-| Ancho | 300px |
-| Alto | 300px |
-
-### Posts
-
-En algunos posts \(incluyendo los estáticos\) se llega a usar código HTML en algunas situaciones, este código por default tiene un comportamiento con los estilos CSS, gracias a esto se pueden ver templates distintos.
-
-Código para agenda, videos y cursos:
-
-```text
-<section class="flex jus--start wrap--yes">
-    <article class="page-static">
-        <figure class="page-static__image">
-            <img src="imagen.jpg">
-        </figure>
-        <header class="page-static__info">
-            <strong class="page-static__title">Título</strong>
-            <span class="page-static__place">Texto</span>
-            <time class="page-static__date">
-                <span class="page-static__text">Texto</span>
-            </time>
-            <p class="page-static__description">Descripción...</p>
-        </header>
-        <a href="pagina.com" target='_blank' class="page-static__button">
-            <span class="page-static__link">Botón</span>
-        </a>
-    </article>
-</section>
-```
-
-![Template default](https://s-media-cache-ak0.pinimg.com/originals/5a/13/d8/5a13d80e88dc7abe720529522c4e3adf.png) Código para un el botón "Codepen":
-
-```text
-<a href='#' target='_blank' class='btn-codepen'>Ver en codepen</a>
-```
-
-![Bot&#xF3;n Codepen](https://s-media-cache-ak0.pinimg.com/originals/84/85/5f/84855f410b82280f3d3256fcfc5d357d.png)
-
-Código para los mensajes de tip en un post:
 
 ```text
 <blockquote class='tip'>
